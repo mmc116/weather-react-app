@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Selected.css";
+
 export default function Main() {
   return (
     <div className="main">

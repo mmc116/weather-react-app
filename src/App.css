@@ -1,0 +1,40 @@
+button {
+  border: transparent;
+}
+
+footer {
+  text-align: center;
+  font-size: 8px;
+  color: rgba(102, 101, 101, 0.582);
+}
+
+a {
+  text-decoration: underline;
+  color: rgba(102, 101, 101, 0.582);
+  margin: 3px;
+}
+
+a:hover {
+  color: beige;
+}
+
+.git {
+  font-size: 10px;
+}
+
+.App {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 35px;
+  border: transparent;
+  padding: -15px;
+  font-family: roboto Mono;
+}
+
+#container {
+  background-image: url("./background/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}

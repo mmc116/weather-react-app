@@ -1,0 +1,13 @@
+#current-location,
+#metric,
+#imperial {
+  text-align: left;
+  margin: 5px;
+  margin-left: -5px;
+  margin-top: 10px;
+  border-radius: 2px;
+  display: block;
+  font-size: 10px;
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0.26);
+}

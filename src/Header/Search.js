@@ -1,7 +1,10 @@
 import React from "react";
 
+import "./Search.css";
+
 export default function Search () {
-  return  (<div className="search">
+  return (
+    <div className="search">
           <form>
             <input
               type="search"
