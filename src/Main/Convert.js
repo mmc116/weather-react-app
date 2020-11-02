@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 
+import "./Convert.css";
+
+
 export default function Temperature(props) {
     const [temp, setTemp] = useState({});
     const [speed, setSpeed] = useState({});

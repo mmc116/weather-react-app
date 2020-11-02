@@ -38,7 +38,6 @@ export default function Weather() {
   if (loaded) {
     return (
       <div className="container">
-        <div className="header">
           <div className="row">
             <div className="col-sm">
               <Convert data={setInfo}/>
@@ -57,6 +56,8 @@ export default function Weather() {
                 </form>
               </div>
             </div>
+          </div>
+       
       <div className="main">
         <h1 id="city">{info.city}</h1>
         <Time />
@@ -73,9 +74,8 @@ export default function Weather() {
           <li id="wind-speed">Wind: {info.windspeed} km/h</li>
         </ul>
             </div>
-          </div>
         </div>
-        </div>
+        
     )
 
   } else {
@@ -107,7 +107,7 @@ export default function Weather() {
         <h3 id="temperature">
           20°C
         </h3>
-        <img src={info.icon} alt="" id="icon" />
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" id="icon" />
         <br />
         <h5 id="description" className="text-capitalize">Cloudy</h5>
         <hr />

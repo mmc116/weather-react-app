@@ -1,12 +1,3 @@
-body {
-  width: 35%;
-  margin: 0 auto;
-  margin-top: 35px;
-  border: transparent;
-  padding: -15px;
-  font-family: roboto Mono;
-}
-
 button {
   border: transparent;
 }
@@ -29,21 +20,4 @@ a:hover {
 
 .git {
   font-size: 10px;
-}
-
-.App {
-  width: 35%;
-  margin: 0 auto;
-  margin-top: 35px;
-  border: transparent;
-  padding: -15px;
-  font-family: roboto Mono;
-}
-
-#container {
-  background-image: url("./background/background.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 10px;
 }

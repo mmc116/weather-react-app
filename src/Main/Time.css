@@ -1,0 +1,8 @@
+.time {
+  font-size: 15px;
+  margin-top: -5px;
+  background-color: rgba(255, 255, 255, 0.356);
+  width: 180px;
+  margin: 0 auto;
+  border-radius: 2px;
+}

@@ -39,6 +39,20 @@ li {
   padding: 5px;
 }
 
+.container {
+  background-image: url("./background/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 35px;
+  border: transparent;
+  padding: -15px;
+  font-family: roboto Mono;
+}
+
 .search {
   text-align: right;
 }
@@ -47,6 +61,7 @@ li {
   text-align: center;
   line-height: 5px;
   padding: 10px;
+  max-width: 90%;
 }
 
 .moreInfo {
@@ -57,6 +72,7 @@ li {
   font-size: 12px;
   list-style: none;
   line-height: 5px;
+  max-width: 65%;
 }
 
 #temperature {
