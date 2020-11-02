@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "./Convert.css";
+import "./Conversion.css";
 
 
 export default function Temperature(props) {
@@ -26,7 +26,7 @@ export default function Temperature(props) {
      } 
     
     return (
-        <div id="convertion-buttons">
+        <div id="conversion-buttons">
             <button id="metric" onClick={[temp.celcius, speed.kmh]}>°C | Km/h</button>
             <button id="imperial" onClick={[temp.fahrenheit, speed.mph]}>°F | Mp/h</button>
       </div>

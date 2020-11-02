@@ -38,6 +38,7 @@ export default function Weather() {
   if (loaded) {
     return (
       <div className="container">
+        <div className="header">
           <div className="row">
             <div className="col-sm">
               <Convert data={setInfo}/>
@@ -57,6 +58,7 @@ export default function Weather() {
               </div>
             </div>
           </div>
+        </div>
        
       <div className="main">
         <h1 id="city">{info.city}</h1>
